@@ -1,0 +1,13 @@
+button.btn-box {
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+}
+.icon-clr{
+  color: rgb(255, 0, 0);
+}
+button.btn-box.operatorbtn.btn-outline-danger {
+  border-radius: 0.375rem;
+  border: 1px solid rgb(0, 225, 255);
+  background: transparent;
+}
