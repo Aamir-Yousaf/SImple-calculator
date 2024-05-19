@@ -30,30 +30,30 @@
           <button onclick="makeExp('7')" class="btn-box btn btn-primary"> 7 </button>
           <button onclick="makeExp('8')" class="btn-box btn btn-primary"> 8</button>
           <button onclick="makeExp('9')" class="btn-box btn btn-primary"> 9</button>
-          <button onclick="makeExp('%')" class="btn-box operator btn btn-outline-primary" > % </button>
-          <button onclick="makeExp('+')" class="btn-box operator btn btn-outline-primary">+</button>
+          <button onclick="makeExp('%')" class="btn-box operator btn btn-outline-primary cstm-weight" > % </button>
+          <button onclick="makeExp('+')" class="btn-box operator btn btn-outline-primary cstm-weight">+</button>
         </div>
         <div class="btn-row2">
           <button onclick="makeExp('4')" class="btn-box btn btn-primary">  4</button>
           <button onclick="makeExp('5')" class="btn-box btn btn-primary">5</button>
           <button onclick="makeExp('6')" class="btn-box btn btn-primary">  6</button>
-          <button class="btn-box operator btn btn-outline-primary">√x</button>
-          <button  onclick="makeExp()" class="btn-box operator btn btn-outline-primary" > -</button>
+          <button onclick="SqureRoot()" class="btn-box operator btn btn-outline-primary cstm-weight">√x</button>
+          <button  onclick="makeExp()" class="btn-box operator btn btn-outline-primary cstm-weight" > -</button>
         </div>
         <div class="btn-row3">
           <button onclick="makeExp('1')" class="btn-box btn btn-primary"> 1</button>
           <button onclick="makeExp('2')" class="btn-box btn btn-primary"> 2</button>
           <button onclick="makeExp('3')" class="btn-box btn btn-primary">  3 </button>
           <button onclick="makeExp('.')" class="btn-box operator btn btn-outline-primary cstm-weight" > . </button>
-          <button onclick="makeExp('/')"  class="btn-box operator btn btn-outline-primary">  ÷ </button>
+          <button onclick="makeExp('/')"  class="btn-box operator btn btn-outline-primary cstm-weight">  ÷ </button>
         </div>
         <div class="btn-row4">
           <button  onclick="clearResult('')" class="btn-box btn btn-outline-success" >  AC</button>
           <button onclick="makeExp('0')" class="btn-box btn btn-primary">  0</button>
           <!-- evaluate exp -->
-          <button onclick="makeResult('')" class="btn-box btn btn-outline-info"> = </button>
-          <button onclick="onBackspace()" class="btn-box btn btn-outline-info"> <img class="cstm-icon" src="backspace icon.png"> </button>  
-          <button onclick="makeExp('*')" class="btn-box operator btn btn-outline-primary">  X </button>
+          <button onclick="makeResult('')" class="btn-box btn btn-outline-info cstm-weight"> = </button>
+          <button onclick="onBackspace()" class="btn-box btn btn-outline-info"> <img class="cstm-icon" src="backspace-2.png"> </button>  
+          <button onclick="makeExp('*')" class="btn-box operator btn btn-outline-primary cstm-weight">  X </button>
         </div>
        </div>
       <div id="errorText"></div>

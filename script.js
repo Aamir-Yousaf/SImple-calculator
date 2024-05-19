@@ -62,3 +62,9 @@ function onBackspace(){
     expSelector.innerHTML = newExp;
     exp = newExp;
 }
+function SqureRoot(){
+  const newExp = Math.sqrt(exp).toFixed(2);
+  console.log(newExp);
+  expSelector.innerHTML = newExp;
+  exp = newExp;  
+}
