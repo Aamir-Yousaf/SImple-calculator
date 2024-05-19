@@ -12,6 +12,10 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  background: rgba(92, 92, 92, 0.264);
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
 }
 button.btn-box {
   height: 50px;
@@ -22,7 +26,12 @@ button.btn-box {
   max-width: 360px;
   border: 1px solid black;
 }
-
+h5.exp.cal-value-text-value {
+    padding-left: 20px;
+}
+button.btn-box.btn.btn-outline-info.cstm-weight {
+    color: black;
+}
 .cal-value-text-value {
   padding-right: 30px;
 }
@@ -38,4 +47,44 @@ button.btn-box {
 }
 button.btn-box.operator.btn.btn-outline-primary.cstm-weight {
   font-weight: 900;
+}
+@media (max-width: 425px) {
+  #main {
+    padding: 10px;
+    width: 90%;
+  }
+
+  .cal-value-text {
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+
+  .cal-value-text-value,
+  .cal-value-text-unit {
+    padding-right: 10px;
+    font-size: 1.2em;
+  }
+
+  .cal-btns {
+    gap: 5px;
+  }
+
+  button.btn-box {
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+    font-size: 0.9em;
+  }
+
+  .cstm-icon {
+    width: 20px;
+  }
+  .btn-row1,
+  .btn-row2,
+  .btn-row3,
+  .btn-row4 {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
 }
