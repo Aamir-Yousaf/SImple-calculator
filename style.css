@@ -28,3 +28,6 @@ button.btn-box.operatorbtn.btn-outline-danger {
   text-align: right;
   padding-right: 30px;
 }
+.cstm-weight{
+   font-weight: 900;
+}
